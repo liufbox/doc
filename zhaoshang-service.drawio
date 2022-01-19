@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T10:56:49.774Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="1e79ZrQi_FX7y9v_QSam" version="16.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T11:20:03.905Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="hrslnVWfi5dfBeeyfTRu" version="16.3.0" type="github">
   <diagram id="LmvB-lLnnhAyD1Q8A4K7" name="Page-1">
     <mxGraphModel dx="1422" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-1" value="欢句Live合规系统业务架构图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="100" width="800" height="480" as="geometry" />
+          <mxGeometry x="70" y="100" width="790" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-2" value="合规审核功能" style="swimlane;startSize=20;horizontal=0;" parent="L5llQ_H--O1Ez9Xqa_5C-1" vertex="1">
-          <mxGeometry y="20" width="800" height="220" as="geometry" />
+        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-2" value="合规审核功能" style="swimlane;startSize=20;horizontal=0;fillColor=#D5E8D4;swimlaneFillColor=default;" parent="L5llQ_H--O1Ez9Xqa_5C-1" vertex="1">
+          <mxGeometry y="20" width="790" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-7" value="业务送审" style="swimlane;" parent="L5llQ_H--O1Ez9Xqa_5C-2" vertex="1">
+        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-7" value="业务送审" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" parent="L5llQ_H--O1Ez9Xqa_5C-2" vertex="1">
           <mxGeometry x="46" y="15" width="234" height="190" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-8" value="添加直播间" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-7" vertex="1">
@@ -28,7 +28,7 @@
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-18" value="修改直播间资料" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-7" vertex="1">
           <mxGeometry x="130" y="80" width="97" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-20" value="合规审核" style="swimlane;" parent="L5llQ_H--O1Ez9Xqa_5C-2" vertex="1">
+        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-20" value="合规审核" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" parent="L5llQ_H--O1Ez9Xqa_5C-2" vertex="1">
           <mxGeometry x="293" y="15" width="234" height="190" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-24" value="查询待审核列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-20" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-33" value="审核提交" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-20" vertex="1">
           <mxGeometry x="8" y="75" width="66" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-29" value="公共功能" style="swimlane;" parent="L5llQ_H--O1Ez9Xqa_5C-2" vertex="1">
+        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-29" value="公共功能" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" parent="L5llQ_H--O1Ez9Xqa_5C-2" vertex="1">
           <mxGeometry x="540" y="15" width="234" height="190" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-30" value="我的工作台" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-29" vertex="1">
@@ -67,32 +67,44 @@
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-38" value="代办查询接口" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-29" vertex="1">
           <mxGeometry x="8" y="123" width="82" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-5" value="基础功能" style="swimlane;startSize=20;horizontal=0;" parent="L5llQ_H--O1Ez9Xqa_5C-1" vertex="1">
-          <mxGeometry y="240" width="800" height="120" as="geometry" />
+        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-5" value="基础功能" style="swimlane;startSize=20;horizontal=0;fillColor=#A9C4EB;" parent="L5llQ_H--O1Ez9Xqa_5C-1" vertex="1">
+          <mxGeometry y="240" width="790" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JF0tIRT7hCaRXNHfGN9g-1" value="" style="swimlane;startSize=0;swimlaneFillColor=#A9C4EB;dashed=1;" vertex="1" parent="L5llQ_H--O1Ez9Xqa_5C-5">
+          <mxGeometry x="40" y="23" width="740" height="97" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-39" value="语音识别" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-5" vertex="1">
-          <mxGeometry x="46" y="20" width="66" height="30" as="geometry" />
+          <mxGeometry x="46" y="33" width="66" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-40" value="监控视频保存" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-5" vertex="1">
-          <mxGeometry x="140" y="20" width="80" height="30" as="geometry" />
+          <mxGeometry x="140" y="33" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-41" value="同步监控平台信息到欢句云" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-5" vertex="1">
-          <mxGeometry x="250" y="20" width="160" height="30" as="geometry" />
+          <mxGeometry x="250" y="33" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-42" value="文件资料预览和管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-5" vertex="1">
-          <mxGeometry x="450" y="20" width="110" height="30" as="geometry" />
+          <mxGeometry x="450" y="33" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-43" value="认证和鉴权" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-5" vertex="1">
-          <mxGeometry x="590" y="20" width="66" height="30" as="geometry" />
+          <mxGeometry x="590" y="33" width="66" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-44" value="OA一键登录" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-5" vertex="1">
-          <mxGeometry x="700" y="20" width="80" height="30" as="geometry" />
+          <mxGeometry x="681" y="33" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-45" value="定时任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-5" vertex="1">
-          <mxGeometry x="48" y="70" width="95" height="30" as="geometry" />
+          <mxGeometry x="48" y="83" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-3" value="基础数据层" style="swimlane;startSize=20;horizontal=0;" parent="L5llQ_H--O1Ez9Xqa_5C-1" vertex="1">
-          <mxGeometry y="360" width="800" height="120" as="geometry" />
+        <mxCell id="JF0tIRT7hCaRXNHfGN9g-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="L5llQ_H--O1Ez9Xqa_5C-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="738" y="63" as="sourcePoint" />
+            <mxPoint x="738" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5llQ_H--O1Ez9Xqa_5C-3" value="基础数据层" style="swimlane;startSize=20;horizontal=0;fillColor=#CCCCFF;" parent="L5llQ_H--O1Ez9Xqa_5C-1" vertex="1">
+          <mxGeometry y="390" width="790" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JF0tIRT7hCaRXNHfGN9g-2" value="" style="swimlane;startSize=0;dashed=1;fillColor=#CCCCFF;gradientColor=none;swimlaneFillColor=#CCCCFF;" vertex="1" parent="L5llQ_H--O1Ez9Xqa_5C-3">
+          <mxGeometry x="30" y="10" width="750" height="100" as="geometry" />
         </mxCell>
         <mxCell id="L5llQ_H--O1Ez9Xqa_5C-47" value="用户数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="L5llQ_H--O1Ez9Xqa_5C-3" vertex="1">
           <mxGeometry x="46" y="40" width="66" height="30" as="geometry" />
