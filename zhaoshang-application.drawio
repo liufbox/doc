@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T12:20:56.980Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="XXCsV9NU609jlxLPssYh" version="16.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T12:28:55.448Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="P8Xi57sWCuu2HDtxINzN" version="16.3.0" type="github">
   <diagram id="RGCNb0BmkwuMMQMb4ELD" name="Page-1">
     <mxGraphModel dx="1422" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,31 +128,40 @@
           <mxGeometry width="1051" height="210" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-101" value="redis&lt;br&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_including_Redis.svg;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-90">
-          <mxGeometry x="901" y="40" width="50" height="50" as="geometry" />
+          <mxGeometry x="901.9660861594867" y="40" width="48.166819431714025" height="48.166819431714025" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-127" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;elbow=vertical;entryX=0.536;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="x4gcO5bAAS3uo_amFbTj-90" target="x4gcO5bAAS3uo_amFbTj-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="911.3162236480293" y="90" as="sourcePoint" />
+            <mxPoint x="906.499541704858" y="116" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-92" value="" style="swimlane;startSize=0;dashed=1;swimlaneFillColor=#FFFFFF;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
-          <mxGeometry x="61" y="10" width="750" height="100" as="geometry" />
+          <mxGeometry x="58.76351970669111" y="10" width="722.5022914757104" height="100" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-93" value="用户数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
-          <mxGeometry x="77" y="40" width="66" height="30" as="geometry" />
+          <mxGeometry x="74.1769019248396" y="40" width="63.580201649862516" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-94" value="配置数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
-          <mxGeometry x="181" y="40" width="66" height="30" as="geometry" />
+          <mxGeometry x="174.36388634280476" y="40" width="63.580201649862516" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-95" value="直播间申请单数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
-          <mxGeometry x="281" y="40" width="110" height="30" as="geometry" />
+          <mxGeometry x="270.6975252062328" y="40" width="105.96700274977086" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-96" value="语音识别数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
-          <mxGeometry x="411" y="40" width="80" height="30" as="geometry" />
+          <mxGeometry x="395.9312557286893" y="40" width="77.06691109074244" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-97" value="直播视频数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
-          <mxGeometry x="521" y="40" width="80" height="30" as="geometry" />
+          <mxGeometry x="501.89825847846015" y="40" width="77.06691109074244" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-98" value="文件资料" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
-          <mxGeometry x="641" y="40" width="80" height="30" as="geometry" />
+          <mxGeometry x="617.4986251145738" y="40" width="77.06691109074244" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-104" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
-          <mxGeometry x="361" y="131" width="60" height="64.5" as="geometry" />
+          <mxGeometry x="347.76443629697525" y="131" width="57.80018331805683" height="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-126" value="1.做为消息通道，直播监控获取语音识别结果；直播间变更异步通知；&lt;br&gt;2. 做为缓存，保存直播间临时状态，欢句云端连接信息等" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-113">
+          <mxGeometry x="783.1924839596701" y="115.5" width="211.9340054995417" height="84.5" as="geometry" />
         </mxCell>
         <mxCell id="x4gcO5bAAS3uo_amFbTj-119" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=3;" edge="1" parent="1" source="x4gcO5bAAS3uo_amFbTj-9" target="x4gcO5bAAS3uo_amFbTj-101">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
