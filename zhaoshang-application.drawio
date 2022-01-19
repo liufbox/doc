@@ -1,1 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T11:23:16.577Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" version="16.3.0" etag="JdqJsUMFh-yQMUKZqqAL" type="github"><diagram id="RGCNb0BmkwuMMQMb4ELD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-19T11:52:51.453Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="xQ8KrUsdAq-NMf17g25w" version="16.3.0" type="github">
+  <diagram id="RGCNb0BmkwuMMQMb4ELD" name="Page-1">
+    <mxGraphModel dx="1422" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-112" value="欢句Live合规应用架构图" style="swimlane;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="34" y="60" width="1066" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-3" value="展现层" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="39" y="90" width="1051" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-4" value="WEB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-3">
+          <mxGeometry x="181" y="30" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-5" value="OA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-3">
+          <mxGeometry x="678" y="27.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-6" value="业务层" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="39" y="200" width="1051" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-9" value="合规模块" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-6">
+          <mxGeometry x="40" y="10" width="669" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-61" value="业务送审" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-9">
+          <mxGeometry x="16" y="30" width="184" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-62" value="添加直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-61">
+          <mxGeometry x="6" y="34" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-63" value="批量添加直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-61">
+          <mxGeometry x="86" y="34" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-64" value="查询直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-61">
+          <mxGeometry x="98" y="80" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-65" value="我的直播数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-61">
+          <mxGeometry x="9" y="80" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-66" value="修改直播间资料" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-61">
+          <mxGeometry x="5" y="140" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-67" value="合规审核" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-9">
+          <mxGeometry x="219" y="30" width="181" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-68" value="查询待审核列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-67">
+          <mxGeometry x="8" y="35" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-69" value="资料审核" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-67">
+          <mxGeometry x="87" y="35" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-70" value="资料批注" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-67">
+          <mxGeometry x="87" y="80" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-71" value="审核提交" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-67">
+          <mxGeometry x="8" y="75" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-72" value="公共功能" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-9">
+          <mxGeometry x="422" y="30" width="234" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-73" value="我的工作台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="4" y="29" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-74" value="直播监控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="84" y="29" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-75" value="标记打点管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="163" y="29" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-76" value="提交合规记录单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="4" y="75" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-77" value="操作栏查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="84" y="75" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-78" value="查看合规记录单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="163" y="75" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-79" value="代办查询接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="8" y="123" width="82" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-107" value="OA一键登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="99" y="123" width="82" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-106" value="认证和鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-72">
+          <mxGeometry x="7" y="157" width="82" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-80" value="文档服务" style="swimlane;fillColor=#A9C4EB;swimlaneFillColor=#A9C4EB;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-6">
+          <mxGeometry x="726" y="10" width="109" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-81" value="文档预览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-80">
+          <mxGeometry x="10" y="50" width="82" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-82" value="文档格式转换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-80">
+          <mxGeometry x="10" y="101.5" width="82" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-83" value="文档管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-80">
+          <mxGeometry x="10" y="160" width="82" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-84" value="接口服务" style="swimlane;fillColor=#CCCCFF;swimlaneFillColor=#CCCCFF;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-6">
+          <mxGeometry x="846" y="10" width="183" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-85" value="同步直播间数据到欢句云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-84">
+          <mxGeometry x="10" y="39" width="140" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-86" value="从欢句云获取语音识别结果，保存并推送到Redis消息通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-84">
+          <mxGeometry x="9" y="80.5" width="160" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-87" value="保存直播监控视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-84">
+          <mxGeometry x="10" y="138" width="82" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-90" value="数据层" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="39" y="490" width="1051" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-101" value="redis&lt;br&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_including_Redis.svg;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-90">
+          <mxGeometry x="901" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-104" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="x4gcO5bAAS3uo_amFbTj-90">
+          <mxGeometry x="375" y="131" width="60" height="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-92" value="" style="swimlane;startSize=0;dashed=1;swimlaneFillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="750" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-93" value="用户数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="116" y="530" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-94" value="配置数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="530" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-95" value="直播间申请单数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-96" value="语音识别数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-97" value="直播视频数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x4gcO5bAAS3uo_amFbTj-98" value="文件资料" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
