@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T09:28:18.086Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="fPyQrgsOLq4tvIwZRWax" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T09:30:17.804Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="8_1Qvv1j10qVUSSd_32k" version="16.6.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,11 +44,6 @@
         <mxCell id="eWzPqDSltxr1d_YXbIFi-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eWzPqDSltxr1d_YXbIFi-17">
           <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="185" y="236" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="上传文件" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="160" as="sourcePoint" />
@@ -58,11 +53,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="228" y="208" as="sourcePoint" />
             <mxPoint x="90" y="208" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-10" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-4" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b_7ItS08v8VRTS_WUA0a-3" value="redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
@@ -151,6 +141,15 @@
         </mxCell>
         <mxCell id="eWzPqDSltxr1d_YXbIFi-92" value="&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="740" y="440" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eWzPqDSltxr1d_YXbIFi-95" value="私有化端" style="text;strokeColor=none;fillColor=none;html=1;fontSize=13;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="275" y="591" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWzPqDSltxr1d_YXbIFi-96" value="上传文件" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="670" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWzPqDSltxr1d_YXbIFi-97" value="欢句云端" style="text;strokeColor=none;fillColor=none;html=1;fontSize=13;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="860" y="650" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
