@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T03:36:30.253Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" version="16.6.4" etag="OTXpkHXjpRa2D56FS47A" type="github"><diagram id="fIVeJlJuE8aJmZpe3ket">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-03T03:45:47.678Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="ZxXEp61FGfn9a8NO2ZI1" version="16.6.4" type="github">
+  <diagram id="fIVeJlJuE8aJmZpe3ket" name="Page-1">
+    <mxGraphModel dx="1422" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bB6q7HOxnZx6WN4StiqI-1" value="私有化部署端" style="swimlane;startSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="250" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="bB6q7HOxnZx6WN4StiqI-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bB6q7HOxnZx6WN4StiqI-1">
+          <mxGeometry x="10" y="170" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bB6q7HOxnZx6WN4StiqI-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bB6q7HOxnZx6WN4StiqI-1">
+          <mxGeometry x="10" y="50" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bB6q7HOxnZx6WN4StiqI-3" value="OA对接模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="bB6q7HOxnZx6WN4StiqI-1">
+          <mxGeometry x="20" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bB6q7HOxnZx6WN4StiqI-5" value="OA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bB6q7HOxnZx6WN4StiqI-1">
+          <mxGeometry x="20" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bB6q7HOxnZx6WN4StiqI-6" value="合规web端-私有化部分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bB6q7HOxnZx6WN4StiqI-1">
+          <mxGeometry x="125" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bB6q7HOxnZx6WN4StiqI-8" value="前端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bB6q7HOxnZx6WN4StiqI-1">
+          <mxGeometry x="80" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bB6q7HOxnZx6WN4StiqI-2" value="欢句云端" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="230" height="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
