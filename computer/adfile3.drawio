@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T09:30:17.804Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="8_1Qvv1j10qVUSSd_32k" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T09:35:11.721Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="8peRQ6SAPAj2R-aDGVs_" version="16.6.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2272" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,15 +82,6 @@
         <mxCell id="eWzPqDSltxr1d_YXbIFi-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eWzPqDSltxr1d_YXbIFi-1">
           <mxGeometry x="56.5" y="309" width="10" height="201" as="geometry" />
         </mxCell>
-        <mxCell id="eWzPqDSltxr1d_YXbIFi-13" value="filelocal-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eWzPqDSltxr1d_YXbIFi-1">
-          <mxGeometry x="590" y="440" width="123" height="299" as="geometry" />
-        </mxCell>
-        <mxCell id="eWzPqDSltxr1d_YXbIFi-15" value="audit-interface-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="-293" width="123" height="299" as="geometry" />
-        </mxCell>
-        <mxCell id="eWzPqDSltxr1d_YXbIFi-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eWzPqDSltxr1d_YXbIFi-15">
-          <mxGeometry x="56" y="80" width="10" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="eWzPqDSltxr1d_YXbIFi-11" value="filelocal-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="80" width="100" height="300" as="geometry" />
         </mxCell>
@@ -145,8 +136,8 @@
         <mxCell id="eWzPqDSltxr1d_YXbIFi-95" value="私有化端" style="text;strokeColor=none;fillColor=none;html=1;fontSize=13;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="275" y="591" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eWzPqDSltxr1d_YXbIFi-96" value="上传文件" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="10" y="670" width="100" height="40" as="geometry" />
+        <mxCell id="eWzPqDSltxr1d_YXbIFi-96" value="上传文件流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="670" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eWzPqDSltxr1d_YXbIFi-97" value="欢句云端" style="text;strokeColor=none;fillColor=none;html=1;fontSize=13;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="860" y="650" width="100" height="40" as="geometry" />
