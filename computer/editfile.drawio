@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T10:50:15.901Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="USYIn2MVc2vC23D8qWos" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T01:46:41.362Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="PJSUeqNz6wm-KP-gTd88" version="16.6.4" type="github">
   <diagram id="Lemr4TlT2n4yfR1173dL" name="Page-1">
     <mxGraphModel dx="1422" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="npCUeCYWiWq_pYKD61Gq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry y="69" width="790" height="901" as="geometry" />
+          <mxGeometry y="75" width="850" height="901" as="geometry" />
         </mxCell>
         <mxCell id="npCUeCYWiWq_pYKD61Gq-3" value="私有化web端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="80" width="100" height="300" as="geometry" />
@@ -58,28 +58,31 @@
         <mxCell id="npCUeCYWiWq_pYKD61Gq-43" value="权限判断" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-15">
           <mxGeometry x="75" y="210" width="20" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-51" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-15">
+          <mxGeometry x="52.5" y="380" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-53" value="云端保存新版本" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-15">
+          <mxGeometry x="66" y="470" width="20" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="npCUeCYWiWq_pYKD61Gq-27" value="金山Office Saas" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="80" width="100" height="690" as="geometry" />
+          <mxGeometry x="369" y="80" width="100" height="690" as="geometry" />
         </mxCell>
         <mxCell id="npCUeCYWiWq_pYKD61Gq-28" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-27">
           <mxGeometry x="46" y="80" width="10" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="npCUeCYWiWq_pYKD61Gq-31" value="金山SDK调用，访问在线文档" style="endArrow=classic;html=1;rounded=0;exitX=0.54;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="85" y="255" as="sourcePoint" />
-            <mxPoint x="376" y="255" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-50" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-27">
+          <mxGeometry x="45" y="386" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="npCUeCYWiWq_pYKD61Gq-41" value="调用/v1/3rd/file/info，获取文件元信息" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="386" y="276.0000000000001" as="sourcePoint" />
+            <mxPoint x="425" y="276.0000000000001" as="sourcePoint" />
             <mxPoint x="613" y="276.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="npCUeCYWiWq_pYKD61Gq-42" value="返回url、权限等元信息" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="608" y="377" as="sourcePoint" />
-            <mxPoint x="385" y="377" as="targetPoint" />
+            <mxPoint x="425" y="377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="npCUeCYWiWq_pYKD61Gq-45" value="返回url、权限等元信息" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1">
@@ -92,6 +95,57 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="15" y="489" as="sourcePoint" />
             <mxPoint x="75" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-49" value="编辑后保存文件" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="87" y="512.0000000000001" as="sourcePoint" />
+            <mxPoint x="418" y="512.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-52" value="调用/v1/3rd/file/save&#xa;，上传文件新版本" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="539.0000000000001" as="sourcePoint" />
+            <mxPoint x="610" y="539.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-59" value="TDMQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="160" width="115" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-62" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-59">
+          <mxGeometry x="52.5" y="315" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-68" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-59">
+          <mxGeometry x="52.5" y="85" width="10" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-64" value="全局消息通知：文件更新" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619" y="637" as="sourcePoint" />
+            <mxPoint x="761" y="637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-65" value="audit-interface-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="160" width="115" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-66" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-65">
+          <mxGeometry x="52.5" y="107.5" width="10" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-69" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-65">
+          <mxGeometry x="52.5" y="460" width="7.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-71" value="下载文件新版本" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="npCUeCYWiWq_pYKD61Gq-65">
+          <mxGeometry x="63" y="510" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-31" value="启动时订阅MQ消息" style="endArrow=classic;html=1;rounded=0;exitX=0.54;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="333" y="289" as="sourcePoint" />
+            <mxPoint x="762" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npCUeCYWiWq_pYKD61Gq-70" value="推送消息" style="endArrow=classic;html=1;rounded=0;exitX=0.54;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="762" y="662" as="sourcePoint" />
+            <mxPoint x="333" y="662" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
